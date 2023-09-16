@@ -1,0 +1,1 @@
+this project uses urls to fetch images rather than them being in this folder and being referenced from here.

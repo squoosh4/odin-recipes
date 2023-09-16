@@ -1,0 +1,61 @@
+/*.background--custom {
+    background-color: #FFFFFF;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: 0;
+    top: 0;
+    left: 0;
+  }
+  @keyframes path0 {
+    0% {
+      transform: rotate(-40deg);
+    }
+    100% {
+      transform: rotate(40deg);
+    }
+  }
+  @keyframes path1 {
+    0% {
+      transform: rotate(-40deg);
+    }
+    100% {
+      transform: rotate(40deg);
+    }
+  }
+  @keyframes path2 {
+    0% {
+      transform: rotate(-30deg);
+    }
+    100% {
+      transform: rotate(30deg);
+    }
+  }
+  @keyframes path3 {
+    0% {
+      transform: rotate(50deg);
+    }
+    100% {
+      transform: rotate(-50deg);
+    }
+  }
+*/
+ 
+.card{
+   height: 350px;
+   width: 27%;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   border: 1rem solid rgb(0, 0, 0);
+   border-radius: 20px;
+}
+
+.card-text{
+    line-height: 1px;
+}
+
+.card-img-top{
+   min-width: 3rem;
+   max-width: 18rem;
+}
